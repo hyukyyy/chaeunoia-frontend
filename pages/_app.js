@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
-import "../styles/reset.css";
+import "../styles/index.css";
 
 function MyApp({ Component, pageProps }) {
   return (
