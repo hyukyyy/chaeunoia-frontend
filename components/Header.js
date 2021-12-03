@@ -4,8 +4,8 @@ import styles from "../styles/Header.module.scss";
 const Header = () => {
   const mainMenus = [
     {
-      text: "menu1",
-      url: "",
+      text: "Introduction",
+      url: "/intro/main",
     },
     {
       text: "menu2",
@@ -20,8 +20,8 @@ const Header = () => {
       url: "",
     },
     {
-      text: "menu5",
-      url: "",
+      text: "QnA",
+      url: "/qna/main",
     },
   ];
 
@@ -41,7 +41,11 @@ const Header = () => {
   ];
   return (
     <div className={styles.wrapper}>
-      <div className={styles.title}>Chaeunoia</div>
+      <div className={styles.title}>
+        <Link href="/">
+          <a className={styles.linkText}>Chaeunoia</a>
+        </Link>
+      </div>
       <div className={styles.mainMenuWrapper}>
         {mainMenus.map((menu) => {
           return (
