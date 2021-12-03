@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Header from '../components/Header';
+import "../styles/reset.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,6 +11,7 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
         />
       </Head>
+      <Header />
       <Component {...pageProps} />
     </>
   );

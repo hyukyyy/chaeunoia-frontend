@@ -1,0 +1,45 @@
+@import "./Constant.scss";
+
+.wrapper {
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  font-size: larger;
+  align-items: center;
+  justify-content: space-around;
+  .title {
+    font-family: "Smooch", cursive;
+    font-size: 3rem;
+  }
+  .mainMenuWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .infoMenuWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+  }
+
+  .menuBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .red {
+    background-color: $red;
+  }
+  .green {
+    background-color: $green;
+  }
+  .blue {
+    background-color: $blue;
+  }
+  .gray {
+    background-color: $gray;
+  }
+}
