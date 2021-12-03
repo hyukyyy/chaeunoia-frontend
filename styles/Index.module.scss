@@ -7,9 +7,8 @@
     height: 25rem;
   }
   .contentWrapper {
-    // background-color: $backGray;
+    background-color: $beige;
     display: flex;
-    // justify-content: space-around;
     flex-wrap: wrap;
     padding: 2rem;
   }
@@ -23,6 +22,18 @@
     border-radius: 10px;
     background-color: white;
   }
+  .conetentWrapperTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 3rem;
+    font-family: "Smooch", cursive;
+    color: $darkBrown;
+    background-color: $beige;
+    border-bottom: 3px double $darkBrown;
+    padding: 3rem 0;
+  }
   .conetentTextWrapper {
     width: 100%;
     height: 30%;
@@ -33,7 +44,7 @@
   .thumbnailWrapper {
     width: 100%;
     height: 70%;
-    background-color: $hotPink;
+    background-color: $darkBrown;
   }
   .thumbnail {
     width: 100%;

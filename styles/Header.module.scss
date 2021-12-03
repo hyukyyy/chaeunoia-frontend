@@ -1,12 +1,14 @@
 @import "./Constant.scss";
 
 .wrapper {
+  background-color: $beige;
   width: 100vw;
   height: 6rem;
   display: flex;
   font-size: larger;
   align-items: center;
   justify-content: space-around;
+  color: $lightbrown;
   .title {
     font-family: "Smooch", cursive;
     font-size: 3rem;

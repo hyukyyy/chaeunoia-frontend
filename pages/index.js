@@ -101,6 +101,7 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageCarousel}>111</div>
+      <div className={styles.conetentWrapperTitle}>This week's best</div>
       <div className={styles.contentWrapper}>
         {contents.map((content) => {
           return (
