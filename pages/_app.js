@@ -1,5 +1,6 @@
-import Head from 'next/head';
-import Header from '../components/Header';
+import Head from "next/head";
+import Header from "../components/Header";
+import { wrapper } from "../store";
 import "../styles/index.css";
 
 function MyApp({ Component, pageProps }) {
@@ -17,4 +18,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default wrapper.withRedux(MyApp);

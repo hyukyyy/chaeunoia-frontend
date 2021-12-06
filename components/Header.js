@@ -28,11 +28,11 @@ const Header = () => {
   const infoMenus = [
     {
       text: "sign in",
-      url: "",
+      url: "/auth/signin",
     },
     {
       text: "log in",
-      url: "",
+      url: "/auth/login",
     },
     {
       text: "my menu",
