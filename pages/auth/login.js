@@ -1,6 +1,10 @@
+import { useDispatch } from "react-redux";
+import { loginAction } from "../../store/authReducer";
 import styles from "../../styles/Login.module.scss";
 const login = () => {
   const handleLogin = () => {
+    const dispatch = useDispatch();
+    dispatch(loginAction());
     return;
   };
   return (

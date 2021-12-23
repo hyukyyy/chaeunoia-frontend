@@ -49,7 +49,7 @@ const Header = () => {
       <div className={styles.mainMenuWrapper}>
         {mainMenus.map((menu) => {
           return (
-            <div className={styles.menuBox}>
+            <div key={menu.text} className={styles.menuBox}>
               <Link href={menu.url}>
                 <a className={styles.linkText}>{menu.text}</a>
               </Link>
@@ -60,7 +60,7 @@ const Header = () => {
       <div className={styles.infoMenuWrapper}>
         {infoMenus.map((menu) => {
           return (
-            <div className={styles.menuBox}>
+            <div key={menu.text} className={styles.menuBox}>
               <Link href={menu.url}>
                 <a className={styles.linkText}>{menu.text}</a>
               </Link>

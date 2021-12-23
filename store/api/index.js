@@ -43,6 +43,8 @@ const httpPut = (url, params, data) => {
 };
 
 const httpPost = (url, params, data) => {
+  console.log(makeUrl(url, params));
+  console.log(data);
   return httpExec("POST", makeUrl(url, params), data);
 };
 
